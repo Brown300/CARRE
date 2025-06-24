@@ -1,46 +1,12 @@
-
-body { font-family: Arial, sans-serif; margin: 0; background-color: #f8f9fa; }
-.navbar {
-  background-color: #fff;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-.navbar a {
-  color: #0e7c86;
-  text-decoration: none;
-  font-weight: bold;
-}
-.navbar a:hover {
-  color: #007BFF;
-}
-header.hero { display: flex; background-color: #0e7c86; color: white; padding: 40px 20px; align-items: center; }
-.hero-left { flex: 1; text-align: center; }
-.profile-pic { width: 150px; height: 150px; border-radius: 100%; border: 4px solid white; }
-.hero-right { flex: 2; padding-left: 30px; }
-.hero-right h1 { font-size: 36px; margin-bottom: 10px; }
-.btn, .btn-blue {
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 4px;
-  display: inline-block;
-  margin-top: 15px;
-}
-.btn { background-color: white; color: #0e7c86; }
-.btn-blue { background-color: #007BFF; color: white; }
-section { padding: 40px 20px; }
-.projects { display: flex; gap: 20px; justify-content: space-around; flex-wrap: wrap; }
-.project-card { background: white; border: 1px solid #ccc; padding: 20px; width: 280px; border-radius: 8px; text-align: center; }
-.project-card img.logo { width: 100px; margin: 10px auto; display: block; }
-.skills .skill { margin-bottom: 15px; }
-.skills .bar { background-color: #ddd; height: 20px; border-radius: 10px; }
-.skills .progress { background-color: #0e7c86; height: 100%; border-radius: 10px; }
-.contact form { display: flex; flex-direction: column; gap: 10px; max-width: 500px; margin-bottom: 20px; }
-.contact input, .contact textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
-.contact button { background-color: #0e7c86; color: white; padding: 10px; border: none; border-radius: 5px; }
-footer { text-align: center; padding: 20px; background: #ddd; }
+body {font-family: Arial, sans-serif;margin: 0;padding: 0;background: #fdfdfd;color: #333;text-align: center;}
+.navbar {margin: 15px 0;}
+.navbar a {margin: 0 10px;text-decoration: none;color: #007BFF;}
+.hero {background: #007BFF;color: white;padding: 30px 15px;}
+.profile-img {width: 150px;height: 150px;border-radius: 100%;object-fit: cover;border: 3px solid white;}
+section {padding: 30px 20px;}
+.project {margin: 20px auto;}
+.logo-img {width: 100px;margin-bottom: 10px;}
+.btn {display: inline-block;margin-top: 10px;padding: 10px 20px;background: white;color: #007BFF;text-decoration: none;border-radius: 5px;}
+form {max-width: 400px;margin: auto;display: flex;flex-direction: column;gap: 10px;}
+input, textarea {padding: 10px;border: 1px solid #ccc;border-radius: 4px;}
+button {padding: 10px;background-color: #007BFF;color: white;border: none;border-radius: 4px;}
